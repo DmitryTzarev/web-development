@@ -1,0 +1,352 @@
+body
+{
+    margin: 0;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.menu_top
+{
+	width: 52%;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+	padding-left:50px;
+}
+
+.menu_top_button
+{
+    display: inline-block;
+    text-align: center;
+    text-indent: 26px;
+    font-size: 19px; 
+    line-height: 50px;
+    font-family: Georgia;
+    color: rgb(51, 51, 51);
+	text-decoration: none;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 17px;
+    background-color: rgba(0, 0, 0, 0);
+	float:left;
+}
+.button_about
+{
+    width: 140px;
+    background-image: url("../images/about_me_icon.png");  
+}	
+
+.button_about:hover
+{
+    color: rgb(245, 245, 245);
+    background-color: #15a98c;
+	background-image: url("../images/about_me_icon_over.png");
+}
+
+.button_hobby
+{
+    width: 160px;
+    background-image: url("../images/hobby_icon.png");
+}
+
+.button_hobby:hover
+{
+    color: rgb(245, 245, 245);
+    background-color: #15a98c;    
+	background-image: url("../images/hobby_icon_over.png");
+}
+
+.button_video
+{
+    width: 234px;
+    background-image: url("../images/video_icon.png");
+}
+
+.button_video:hover
+{
+    color: rgb(245, 245, 245);
+    background-color: #15a98c; 
+	background-image: url("../images/video_icon_over.png");
+}
+
+.background
+{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+}
+
+.article
+{
+    width: 52%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: block;
+}
+
+.photo
+{
+    width: 330px;
+    height: 350px; 
+	display: block;
+    border-radius: 5px;  
+    margin: 210px 60px 0 20px;
+    float: left;
+}
+
+.quote
+{
+    width: 570px;
+    margin: 234px 0 0;
+    display: block;
+    float: left;
+}
+
+.quote_text
+{ 
+	font-size: 28px;
+    font-family: Georgia;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.sign
+{
+    font-size: 16px;
+    line-height: 42px;
+    color: #f5f5f5;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.header
+{
+    display: block;
+    float: left;
+    margin: 42px 0 0;
+}
+
+.main_header
+{
+    font: 700 48px/1 Open Sans, sans-serif;
+    color: #333333;
+    margin: 0;
+}
+.main_header:after
+{
+    display: block;
+	content:" ";
+	width: 60px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #15a98c;
+    margin-top: 28px;
+}
+
+.main_block
+{
+    width: 52%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: block;
+}
+
+.side_menu
+{
+    width: 330px;
+    display: block;
+    margin: 44px 0 0 28px;
+    float: left;
+}
+
+.sidebar
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-family: Open Sans, sans-serif;
+    font-weight: 600; 
+    text-align: left;
+    margin: 0 0 12px;
+    font-stretch:expanded;
+}
+
+.side_menu_bar
+{
+    font-size: 19px;
+    font-family: Georgia;
+    color: rgb(85, 85, 85);
+    line-height: 1.895;
+    text-align: left;
+	margin: 0 0 41px;
+    padding-left: 19px;
+}
+
+.info
+{
+    display: block;
+    margin: 8px 0 0 60px;
+    float: left;
+    width: 570px;
+}
+
+.hobby_about
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 38px 0 13px;   
+}
+
+.about
+{
+    font-size: 19px;
+    font-family: Georgia;
+    color: rgb(85, 85, 85);
+    line-height: 1.684;
+    text-align: left;
+    margin: 0;
+}
+
+.about:last-of-type
+{
+    margin-bottom: 48px;
+}
+
+.link
+{
+    font-size: 19px;
+    font-family: Georgia;
+    color:rgb(21, 169, 139);
+    text-decoration: underline;
+    line-height: 1.684;
+    text-align: left;
+    position: relative;
+    margin-top: 55px;
+}
+
+.link:after
+{
+    content:"→";
+    position: absolute;
+    left: 120px;
+}
+
+.link:hover
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: #098d72;
+    font-family: Georgia;
+}
+
+.film_block
+{
+    width: 65%;
+    margin: 0 auto 50px;
+    padding-top: 56px;
+    font-size: 0;
+}
+
+.film_header
+{  
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    margin: 40px 0 31px;
+}
+
+.film_column
+{
+    width: 285px;
+    margin-right: 20px;
+    padding: 0;
+    display:block;
+    vertical-align: top;
+	float: left;
+}
+
+.film_column:last-of-type
+{
+    margin-right: 0px;
+}
+
+.film_image
+{
+    width: 285px;
+    height: 190px; 
+	display: block;
+	margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.film_title
+{
+    font-size: 22px;
+    font-family: Open Sans, sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: 700;
+    line-height: 1.455;
+    text-align: left;
+    margin: 0;
+}
+
+.description
+{
+    font-size: 16px;
+    font-family: Georgia;
+    color: rgb(85, 85, 85);
+    line-height: 1.75;
+    text-align: left;
+    margin: 17px 0;
+}
+
+.all_films
+{
+    margin: 60px auto;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #15a98c;
+    color: #f5f5f5;
+    font: 19px 'Georgia';
+    display: block;
+}
+
+.all_films:hover
+{
+    background-color: #098d71;
+}
+
+.footer
+{
+    width: 100%;
+	height:70px;
+    background-color: #e8e8e8;
+    display: flex;
+}
+
+.footer_text
+{
+    font: 16px Georgia;
+    color: #555555;
+    margin: auto;
+}
