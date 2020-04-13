@@ -120,7 +120,7 @@ body
 {
     content: url("../images/video_icon_over.png");
     position: absolute;
-    left: 10px;	
+    left: 7px;	
 }
 .background
 {
@@ -374,7 +374,7 @@ body
 
 .all_films
 {
-    margin: 66px 0 70px 831px;
+    margin: 76px auto;
     width: 220px;
     height: 50px;
     border-radius: 5px;
