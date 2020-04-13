@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Царев Дмитрий</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style_lw6.css" rel="stylesheet">
+	<link href="css/style_mail_box.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="images/favicon.png" type="image/x-icon" rel="icon" />
   </head>
@@ -109,7 +110,17 @@
 	  </div>  
 	  <div class="clear"></div>
       <button class="all_films">Все фильмы</button>
-	</div>  
+	</div>
+    <div class="clear"></div>
+    <div class="mail_box">
+	  <div class="head_form_text">НАПИШИ МНЕ</div>
+	  <div class="form_test">
+	    <?php
+          $tplates = file_get_contents('_new.php');
+          echo $tplates;
+		?>  
+	  </div>
+	</div>	
       <footer class="footer">
         <p class="footer_text">© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»</p>
       </footer>
