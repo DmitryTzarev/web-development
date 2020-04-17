@@ -36,12 +36,75 @@ body
 	
 }
 
-.form_test
+.form
 {
 	width: 100%;
 	margin: 0 auto;
 }
 
+.form_container label
+{
+  font: 400 20px/1 'Open Sans', sans-serif;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+.form_item
+{
+  margin-top: 31px;
+  margin-left: 2px;
+}
+
+.form_container
+{
+    margin: 0 auto;
+    padding: 46px auto;
+}
+
+.label_after
+{
+	position: relative;
+}
+
+.label_after::after
+{
+    font: 400 20px/1 'Open Sans', sans-serif;
+    color: red;
+    content: "*";
+    position: relative;	
+}
+
+.cell
+{
+    width: 517px;
+    height: 44px;
+    font: 400 15px/1 'Open Sans', sans-serif;
+    color: #333;
+    border: 2px solid #c7c7c7;
+    border-radius: 3px;
+    padding-left: 19px;
+}
+
+.new-select-style select
+{
+  width: 540px;
+  height: 50px;
+  font: 400 18px/1.2 'Open Sans', sans-serif;
+  color: #333;
+  border: 2px solid #a6a6a6;
+  background: transparent;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  padding: 0 0 0 16px;
+}
+
+.arrow_image
+{
+  position: absolute;
+  top: 20px;
+  right: 18px;
+} 
+  
 /*.clear
 {
     clear: both;
