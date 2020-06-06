@@ -15,4 +15,3 @@
   {
     echo 'No such user.';
   }
-?>

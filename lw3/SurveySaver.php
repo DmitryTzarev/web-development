@@ -37,4 +37,3 @@
     echo "Need email";  
   }	  
   //http://localhost:8080/SurveySaver.php?first_name=Dima&last_name=Tsarev&email=dr@bk.ru&age=31
-?>  
