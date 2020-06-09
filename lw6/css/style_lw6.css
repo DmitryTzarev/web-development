@@ -29,12 +29,9 @@ body
 .menu_top_button
 {
     text-align: center;
-    font: 19px Georgia; 
-    line-height: 50px;
-    color: rgb(51, 51, 51);
+    font: 19px/50px Georgia; 
+    color: #333;
 	text-decoration: none;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0);
 	float: left;
 	display: block;
 }
@@ -53,9 +50,9 @@ body
 	top: 2px;
 }
 
-.button_about:hover
+.button_about:hover, .button_hobby:hover, .button_video:hover 
 {
-    color: rgb(245, 245, 245);
+    color: #F5F5F5;
     background-color: #15a98c;
 }
 
@@ -81,12 +78,6 @@ body
 	top: 3px;
 }
 
-.button_hobby:hover
-{
-    color: rgb(245, 245, 245);
-    background-color: #15a98c;    
-}
-
 .button_hobby:hover::before
 {
     content: url("../images/hobby_icon_over.png");
@@ -108,12 +99,6 @@ body
     position: absolute;
     left: 7px;
 	top: 1px;
-}
-
-.button_video:hover
-{
-    color: rgb(245, 245, 245);
-    background-color: #15a98c; 
 }
 
 .button_video:hover::before
@@ -157,22 +142,16 @@ body
 
 .quote_text
 { 
-	font-size: 28px;
-    font-family: Georgia;
-    color: rgb(255, 255, 255);
-    font-style: italic;
-    line-height: 1.5;
+    font: italic 28px/1.5 Georgia;
+    color: #FFF;
     text-align: left;
 	margin: 0;
 }
 
 .sign
 {
-    font-size: 16px;
-    line-height: 42px;
+    font: 550 16px/42px Open Sans, sans-serif;
     color: #f5f5f5;
-    font-family: Open Sans, sans-serif;
-    font-weight: 600;
     text-align: left;
 }
 
@@ -187,7 +166,7 @@ body
 .main_header
 {
     font: 700 48px/1 Open Sans, sans-serif;
-    color: #333333;
+    color: #333;
     margin: 0;
 }
 .main_header:after
@@ -218,31 +197,23 @@ body
 
 .sidebar_writers
 {
-    font-size: 24px;
-    line-height: 32px;
+    font: 600 24px/32px Open Sans, sans-serif;
     color: #15a98c;
-    font-family: Open Sans, sans-serif;
-    font-weight: 600; 
     text-align: left;
-    font-stretch: expanded;
 }
 
 .sidebar_films
 {
-    font-size: 24px;
-    line-height: 32px;
+    font:600 24px/32px Open Sans, sans-serif;
     color: #15a98c;
-    font-family: Open Sans, sans-serif;
-    font-weight: 600; 
     text-align: left;
-    font-stretch: expanded;
 	margin-top: 44px;
 }
 
 .side_menu_bar
 {
     font: 19px/32px Georgia;
-    color: rgb(85, 85, 85);
+    color: #555;
     line-height: 1.8;
     text-align: left;
     padding: 0 0 0 21px; 
@@ -258,20 +229,17 @@ body
 
 .hobby_about
 {
-    font-size: 36px;
+    font: 400 36px Open Sans, sans-serif;
     line-height: 42px;
-    color: #333333;
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
+    color: #333;
     text-align: left;
     margin: 48px 0 16px;   
 }
 
 .about
 {
-    font-size: 19px;
-    font-family: Georgia;
-    color: rgb(85, 85, 85);
+    font: 19px Georgia;
+    color: #555;
     line-height: 1.684;
     text-align: left;
     margin: 0;
@@ -286,7 +254,7 @@ body
 .link
 {
     font: 19px Georgia;
-    color: rgb(21, 169, 139);
+    color: #15A98B;
     text-decoration: underline;
     line-height: 1.684;
     text-align: left;
@@ -308,13 +276,6 @@ body
     color: #098d72;
 }
 
-.film_background
-{
-	background-color: #f9f9f9;
-	margin-top: 103px;
-	width:100%;
-	padding-bottom: 1px;
-}
 .film_block
 {
     width: 1200px;
@@ -322,15 +283,20 @@ body
     font-size: 0;
 }
 
+.film_background
+{
+	background-color: #f9f9f9;
+	width:100%;
+	padding-bottom: 1px;
+}
+
 .film_header
 {  
-    font-size: 36px;
+    font: 400 36px Open Sans, sans-serif;
     line-height: 42px;
     color: #333333;
-    font-family: Open Sans, sans-serif;
-    font-weight: 400;
     text-align: left;
-    padding: 40px 0 3px;
+    padding: 30px 0;
 }
 
 .film_column
@@ -359,10 +325,8 @@ body
 
 .film_title
 {
-    font-size: 22px;
-    font-family: Open Sans, sans-serif;
-    color: rgb(51, 51, 51);
-    font-weight: 700;
+    font: 700 22px Open Sans, sans-serif;
+    color: #333;
     line-height: 1.455;
     text-align: left;
     margin: 0;
@@ -370,9 +334,8 @@ body
 
 .description
 {
-    font-size: 16px;
-    font-family: Georgia;
-    color: rgb(85, 85, 85);
+    font: 16px Georgia;
+    color: #555;
     line-height: 1.75;
     text-align: left;
     margin: 17px 0;
@@ -388,7 +351,7 @@ body
     cursor: pointer;
     background-color: #15a98c;
     color: #f5f5f5;
-    font: 19px 'Georgia';
+    font: 19px Georgia;
     display: block;
 	
 }
@@ -409,6 +372,6 @@ body
 .footer_text
 {
     font: 16px Georgia;
-    color: #555555;
+    color: #555;
     margin: auto;
 }
