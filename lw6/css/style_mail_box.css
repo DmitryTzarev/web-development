@@ -35,7 +35,7 @@
 	margin: 0 auto;
 }
 
-.form_container label
+.form_container label, legend
 {
   font: 400 20px/1 'Open Sans', sans-serif;
   color: #333;
@@ -78,15 +78,31 @@
     padding-left: 19px;
 }
 
-.new-select-style select
+fieldset, legend
+{
+	border: 0;
+	padding: 0;
+}
+
+.radio
+{
+    display: flex;
+    margin: 10px 0 0 0;
+}
+
+.radio_label
+{
+	padding-left: 5px;
+	margin-right: 25px;
+}
+
+.new_select_style select
 {
   width: 540px;
   height: 50px;
-  font: 400 18px/1.2 'Open Sans', sans-serif;
+  font: 400 18px/1.2 Open Sans, sans-serif;
   color: #333;
   border: 2px solid #a6a6a6;
-  background: transparent;
-  -webkit-appearance: none;
   border-radius: 5px;
   padding: 0 0 0 16px;
 }
@@ -97,3 +113,36 @@
   top: 20px;
   right: 18px;
 } 
+
+.message
+{
+    box-sizing: border-box;
+    padding: 5px 20px 5px 10px;
+    width: 100%;
+    height: 151px;
+    font: 400 18px/1.2 Open Sans, sans-serif;
+    color: #333;
+    margin: 0 0 24px 0;
+    border: 2px solid #c7c7c7;
+    border-radius: 5px;
+    resize: none;
+}
+.submit_button
+{
+    padding: 13px 60px 13px 62px;
+    margin: 22px 0 39px 1px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    background-color: #15a98c;
+    color: #f5f5f5;
+    font: 19px Georgia;
+    display: block;
+}
+
+.submit_button:hover
+{
+    background-color: #098d71;
+}
