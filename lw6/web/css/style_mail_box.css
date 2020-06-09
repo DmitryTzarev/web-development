@@ -63,7 +63,7 @@
 {
     font: 400 20px/1 'Open Sans', sans-serif;
     color: red;
-    content: "*";
+    content: " *";
     position: relative;	
 }
 

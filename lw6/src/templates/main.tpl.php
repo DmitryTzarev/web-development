@@ -112,49 +112,7 @@
       <button class="all_films">Все фильмы</button>
 	</div>
     <div class="clear"></div>
-	
-    <div class="mail_box">
-	  <div class="head_form_text">НАПИШИ МНЕ</div>
-	    <form action="index.php" method="POST" class="form form_container">
-		  <div class="form_item">
-            <label for="name" class="label_after">Ваше имя</label>
-            <input type="text" class="cell" id="name" name="name" value="" required>
-          </div>
-		  <div class="form_item">
-            <label for="e-mail" class="label_after">Ваше e-mail</label>
-            <input type="text" class="cell" id="e-mail" name="e-mail" value="" required>
-          </div>
-		  <div class="form_item">
-            <label for="country" class="">Откуда вы?</label>
-            <div class="new_select_style">
-			  <img src="images/arrow_down.png" class="arrow_image">
-              <select id="country" size="1" name="country" class="">
-                <option value="Russia">Россия</option>
-                <option value="Ukraine">Украина</option>
-                <option value="Belarus">Белоруссия</option>
-              </select>
-            </div>
-		  </div>
-          <div class="form_item">
-		    <fieldset>
-              <legend class="">Ваш пол</legend>
-              <div class="radio">
-                <input type="radio" name="gender" id="male" value="male" class="">
-                <label for="male" class="radio_label">Мужской</label>
-                <input type="radio" name="gender" id="female" value="female">
-                <label for="female" class="radio_label">Женский</label>
-              </div>
-		    </fieldset>
-          </div>
-          <div class="form_item">
-            <label for="message" class="label_after">Ваше сообщение</label>
-            <textarea class="message" id="message" name="message" required>
-		    </textarea>
-          </div>
-          <input type="submit" class="submit_button">
-        <div>результат</div>	
-	    </form>
-	</div>	
+	<?php renderTemplate("form.tpl.php", $args)?>
       <footer class="footer">
         <p class="footer_text">© 2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО «ПГТУ»</p>
       </footer>
