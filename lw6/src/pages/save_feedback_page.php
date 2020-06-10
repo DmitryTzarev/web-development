@@ -1,6 +1,6 @@
 <?php
 
-function fillTheArgsArray(string $name, string $email): array
+function fillTheArgs(string $name, string $email): array
 {
     $args = $_POST;
     $args['result'] = '';
@@ -35,11 +35,11 @@ function saveFeedbackPage(): void
     $email = getPostParameter('e-mail');
     if (isFormCorrect($name, $email))
     {
-        $dir = 'user_data';
+        $dir = 'data_list';
         $fileName = (getPOSTParameter('e-mail'));
         $arr = $_POST;
         saveFile($dir, $fileName, $arr);
     }
-    $args = fillTheArgsArray($name, $email);
+    $args = fillTheArgs($name, $email);
     renderTemplate("main.tpl.php", $args);
 }
