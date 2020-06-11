@@ -4,7 +4,7 @@ function getRequestMethod()
     return $_SERVER['REQUEST_METHOD'];
 }
 
-function getPostParameter(string $value): string
+function getPostParameter(string $value): ?string
 {
     return (!empty($_POST[$value])) ? (string)$_POST[$value]: null;
 }

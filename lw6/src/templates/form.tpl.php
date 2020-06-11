@@ -16,9 +16,9 @@
             <div class="new_select_style">
 			  <img src="images/arrow_down.png" class="arrow_image">
               <select id="country" size="1" name="country" class="">
-                <option value="Russia" <?php if ($args['country'] === 'Russia' || is_null($args['country'])) echo 'selected'; ?>>Россия</option>
-                <option value="Ukraine" <?php if ($args['country'] === 'Ukraine') echo 'selected'; ?>>Украина</option>
-                <option value="Belarus" <?php if ($args['country'] === 'Belarus') echo 'selected'; ?>>Белоруссия</option>
+                <option <?php if ($args['country'] === 'Russia' || empty($args['country'])) echo 'selected'; ?> value="Russia" >Россия</option>
+                <option <?php if ($args['country'] === 'Ukraine') echo 'selected'; ?> value="Ukraine">Украина</option>
+                <option <?php if ($args['country'] === 'Belarus') echo 'selected'; ?> value="Belarus" >Белоруссия</option>
               </select>
             </div>
 		  </div>
@@ -26,9 +26,9 @@
 		    <fieldset>
               <legend class="">Ваш пол</legend>
               <div class="radio">
-                <input type="radio" name="gender" id="male" value="male" class="" <?php if ($args['gender'] === 'male') echo 'checked'; ?>>
+                <input type="radio" name="gender" id="male" value="male" class="" <?php if ($args['gender'] === 'male') echo 'checked';?>>
                 <label for="male" class="radio_label">Мужской</label>
-                <input type="radio" name="gender" id="female" value="female" <?php if ($args['gender'] === 'female') echo 'checked'; ?>>
+                <input type="radio" name="gender" id="female" value="female" <?php if ($args['gender'] === 'female') echo 'checked';?>>
                 <label for="female" class="radio_label">Женский</label>
               </div>
 		    </fieldset>
